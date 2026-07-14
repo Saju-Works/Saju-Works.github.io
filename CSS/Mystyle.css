@@ -292,12 +292,11 @@ input[type="submit"]{background:plum;
 
 input[type="submit"]:hover{background:#c86cc8;}
 
-a:link{color:palevioletred;}
+a:link{text-decoration:none;}
 
-a:visited{color:palevioletred;}
+a:visited{text-decoration:none;}
 
-a:active{color:red;}
-
+a:active{opacity:0.9;}
 @media print{#top-btn{display:none;}
 
     nav{display:none;}}
