@@ -291,3 +291,13 @@ input[type="submit"]{background:plum;
     transition:.3s;}
 
 input[type="submit"]:hover{background:#c86cc8;}
+
+a:link{color:palevioletred;}
+
+a:visited{color:purple;}
+
+a:active{color:red;}
+
+@media print{#top-btn{display:none;}
+
+    nav{display:none;}}
