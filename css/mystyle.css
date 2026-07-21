@@ -55,19 +55,24 @@ nav ul a{text-decoration: none;color: palevioletred;}
 
 nav ul a:hover{color: blueviolet;}
 
-/*959px以下*/
-@media (max-width:959px){header img{float:none;}
+/*959以下の場合*/
+@media(max-width:959px){header img{float:none;}}
 
-    nav ul{text-align:left;
-        padding:0;
-        margin-left:10px;}
+@media (max-width:600px){
 
-    article{width:auto;}
+nav ul{display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding:10px 0;}
 
-    article img{max-width:100%;
-        height:auto;}
+nav li{padding:5px;
+    border-right:none;}}
 
-    .header-in{width:auto;}}
+article{width: auto;}
+article img{max-width: 100%;
+height: auto;}
+
+.header-in{width: auto;}
 
 /*600px以下の場合*/
 @media(max-width:600px)
@@ -312,12 +317,4 @@ a:active{opacity:0.9;}
 .point-img{width:100%;
     max-width:350px;}}
 
-    .header-in img{width:100%;
-    height:auto;
-    display:block;}
-
-@media (max-width:600px){
-
-table{display:block;
-    overflow-x:auto;
-    white-space:nowrap;}}
+    
