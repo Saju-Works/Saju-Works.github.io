@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>会社概要・アクセス：不安な就活生のための就活支援サイト</title>
-    <link rel="stylesheet" href="CSS/Mystyle.css">
+    <link rel="stylesheet" href="css/mystyle.css">
     <meta name="description" content="不安な就活生のための就活支援サイトを運営する会社の概要とアクセスをご紹介します。">
     <meta name="viewport" content="width=device-width">
 </head>
@@ -23,7 +23,7 @@
                     <li><a href="point.html">就職活動のはじめかた</a></li>
                     <li><a href="zikobunnseki.html">自己分析</a></li>
                     <li><a href="ES.rirekisyo.html">ES・履歴書</a></li>
-                    <li><a href="mensetu.html">面接対策</a></li>
+                    <li><a href="mensetutaisaku.html">面接対策</a></li>
                     <li>会社概要・アクセス</li>
                 </ul>
             </nav>
@@ -159,48 +159,34 @@
                 お気軽にお問い合わせください。
             </p>
 
-            <form>
+<form action="thanks.html">
 
-                <label>お名前（必須）</label>
+    <label>お名前（必須）</label>
+    <input type="text" name="name" placeholder="例：山田 太郎" required>
 
-                <input type="text" placeholder="例：山田 太郎" required>
+    <label>メールアドレス（必須）</label>
+    <input type="email" name="email" placeholder="example@email.com" required>
 
-                <label>メールアドレス（必須）</label>
+    <label>大学名</label>
+    <input type="text" name="university" placeholder="〇〇大学">
 
-                <input type="email" placeholder="example@email.com" required>
+    <label>お問い合わせ内容</label>
+    <select name="category">
+        <option>選択してください</option>
+        <option>就活について</option>
+        <option>自己分析について</option>
+        <option>ES・履歴書について</option>
+        <option>面接について</option>
+        <option>イベントについて</option>
+        <option>その他</option>
+    </select>
 
-                <label>大学名</label>
+    <label>お問い合わせ内容（詳細）</label>
+    <textarea name="message" rows="8" placeholder="お問い合わせ内容をご入力ください。"></textarea>
 
-                <input type="text" placeholder="〇〇大学">
+    <input type="submit" value="送信する">
 
-                <label>お問い合わせ内容</label>
-
-                <select>
-
-                    <option>選択してください</option>
-
-                    <option>就活について</option>
-
-                    <option>自己分析について</option>
-
-                    <option>ES・履歴書について</option>
-
-                    <option>面接について</option>
-
-                    <option>イベントについて</option>
-
-                    <option>その他</option>
-
-                </select>
-
-                <label>お問い合わせ内容（詳細）</label>
-
-                <textarea rows="8" placeholder="お問い合わせ内容をご入力ください。"></textarea>
-
-                <input type="submit" value="送信する">
-
-            </form>
-        </section>
+</form>        </section>
 
     </article>
 
