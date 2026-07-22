@@ -42,6 +42,10 @@ margin-right: auto;}
 
 .sentou{clear: both;text-align: right;}
 
+.main-image{width: 100%;
+height: auto;
+display: block;}
+
 ol li{display: inline;
 margin-right: 5px;
 font-size: 80%;}
@@ -307,14 +311,45 @@ a:visited{text-decoration:none;}
 a:active{opacity:0.9;}
 @media print{#top-btn{display:none;}
 
-    nav{display:none;}}
+nav{display:none;}}
 
 @media (max-width:600px){
 
 .point-box{flex-direction:column;
-    align-items:center;}
+align-items:center;}
 
 .point-img{width:100%;
-    max-width:350px;}}
+max-width:350px;}}
 
-    
+/* スマホ表示 */
+@media (max-width:600px){.header-in{display: flex;
+flex-direction: column;
+align-items: center;}
+
+header img{width: 100px;   /* 今のロゴサイズを維持 */
+height: auto;
+float: none;
+margin: 10px auto;
+display: block;}
+
+nav ul{display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0;
+margin: 10px 0;}
+
+nav li{padding: 5px 8px;
+border-right: none;
+font-size: 85%;}}
+
+/* スマホ表示 */
+@media (max-width:600px){.point-box{display: flex;
+flex-direction: column;
+align-items: center;
+gap: 15px;}
+
+.point-img{width: 100%;
+max-width: 320px;
+height: auto;}
+
+.point-text{width: 100%;}}
