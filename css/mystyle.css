@@ -8,12 +8,12 @@ h1{background:linear-gradient(90deg,#f8d7f3,#ffffff);
     color:#5d3d63;}
 
 h2{display:inline-block;
-    border-bottom:4px dotted plum;
-    padding-bottom:5px;
-    color:#6b4b73;}
+border-bottom:4px dotted plum;
+padding-bottom:5px;
+color:#6b4b73;}
 
 footer{text-align: center;
-    background-color: #c0c0c0;}
+background-color: #c0c0c0;}
 
 .subhead{background-color:#2e8162 ;} 
 
@@ -29,16 +29,17 @@ header{background-color: #003366;color: #ffffff;}
 
 article{position: relative;
 clear: both;
-width: 960px;
-margin-left: auto;
-margin-right: auto;}
-
+max-width: 960px;
+width: 100%;
+margin: 0 auto;
+padding: 0 15px;
+box-sizing: border-box;}
 .point-img{float:none;
-    width:320px;
-    height:auto;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
-    flex-shrink:0;}
+width:320px;
+height:auto;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+flex-shrink:0;}
 
 .sentou{clear: both;text-align: right;}
 
