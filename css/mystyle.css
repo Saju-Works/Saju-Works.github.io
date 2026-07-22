@@ -354,3 +354,6 @@ max-width: 320px;
 height: auto;}
 
 .point-text{width: 100%;}}
+
+@media (max-width:600px){article{padding: 0 15px;
+box-sizing: border-box;}}
